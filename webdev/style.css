@@ -1,0 +1,380 @@
+/* COMMON */
+body {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+.nav,
+.menu,
+.section-your-life,
+.social,
+.rappresent-content,
+.implement-content,
+.implement-content__img,
+.rappresent-content__img,
+.sign-up-form,
+.download-buttons,
+.button_apple,
+.button_play,
+.button-icon,
+.footer-nav,
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__link,
+.button,
+.section-text,
+.section-text__community,
+.sign-up-form__email,
+.nav-menu__link,
+.copyright {
+  font-size: 14px;
+}
+.menu__link,
+.subtitle,
+.section-text,
+.section-text__community,
+.controls__element,
+.sign-up-form__email,
+.nav-menu__item::after,
+.nav-menu__link,
+.copyright {
+  font-weight: 400;
+}
+.rappresent-content__text,
+.community-content,
+.community-content__text,
+.controls,
+.slider,
+.implement-content__text,
+.download-content,
+.button-icon,
+.footer {
+  display: flex;
+}
+.title,
+.button,
+.section-heading {
+  font-weight: 700;
+}
+.download-content,
+.footer {
+  align-items: center;
+}
+.rappresent-content__text,
+.community-content,
+.implement-content__text {
+  align-items: flex-start;
+}
+.header-wrapper,
+.button {
+  color: #fff;
+}
+.community-content,
+.controls,
+.implement-content,
+.button_apple,
+.button_play,
+.footer {
+  flex-direction: row;
+}
+.section-your-life,
+.rappresent-content__text,
+.community-content__text,
+.implement-content__text,
+.download-content {
+  flex-direction: column;
+}
+.title,
+.subtitle,
+.button,
+.community-content__text,
+.download-text,
+.copyright {
+  text-align: center;
+}
+.title,
+.button,
+.section-heading,
+.section-subheading {
+  text-transform: uppercase;
+}
+
+/* HEADER */
+.header-wrapper {
+  background-image: url(./assets/bg-image.jpg);
+}
+.header {
+  padding-top: 20px;
+}
+.hidden-heading {
+  visibility: hidden;
+  margin: 0;
+  height: 0;
+}
+.nav {
+  margin-top: 4px;
+  margin-right: 13px;
+}
+.menu__item {
+  margin-right: 47px;
+  margin-left: 47px;
+}
+.menu__item:first-child {
+  border-bottom: 1px solid #fff;
+}
+.menu__link {
+  opacity: 0.8;
+}
+.menu__link:hover {
+  border-bottom: 1px solid #fff;
+  opacity: 1;
+}
+.logo-item > a:hover {
+  border-bottom: none !important;
+}
+
+/* YOUR LIFE */
+.section-your-life {
+  padding-top: 157px;
+  padding-bottom: 86px;
+}
+.title {
+  margin-left: 5px;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 4.5px;
+}
+.subtitle {
+  width: 448px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.button {
+  margin-top: 30px;
+  padding: 15px 47px;
+  background-color: #00afdb;
+}
+.button:hover {
+  background-color: #009cc2;
+}
+.btn__your-life {
+  margin-top: 0px;
+  width: 90px;
+}
+.social {
+  margin-top: 183px;
+}
+.social__item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.social__item svg:hover {
+  stroke: #00afdb;
+}
+
+/* RAPPRESENT */
+.section-rappresent {
+  padding: 120px 270px 140px;
+}
+.rappresent-content__text {
+  margin-bottom: 50px;
+  padding-right: 250px;
+}
+.section-heading {
+  margin: 0 0 21px;
+  padding-top: 50px;
+  padding-right: 12px;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #373737;
+}
+.section-text {
+  line-height: 20px;
+  color: #4e4e4e;
+}
+
+/* COMMUNITY */
+.section-community {
+  background-color: #f5f6f7;
+}
+.community-content {
+  padding: 84px 0 140px 269px;
+}
+.community-content__text {
+  width: 440px;
+  padding-top: 71px;
+}
+.avatar {
+  width: 45px;
+  margin-left: 127px;
+}
+.section-subheading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  color: #373737;
+}
+.section-text__community {
+  line-height: 20px;
+  color: #4e4e4e;
+}
+.community-content__carousel {
+  overflow: hidden;
+  margin-left: 139px;
+  padding-top: 11px;
+}
+.controls {
+  position: relative;
+  left: 529px;
+  bottom: 17px;
+}
+.controls__arrow {
+  padding: 6px 9px 0 10px;
+}
+.controls__arrow:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.controls__element {
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #373737;
+}
+.slider__img {
+  width: 407px;
+  height: 244px;
+  margin-right: 30px;
+}
+
+/* IMPLEMENT */
+.section-implement {
+  padding: 120px 378px 140px 269px;
+}
+.implement-content__text {
+  padding-bottom: 50px;
+  padding-left: 139px;
+}
+
+/* SIGN-UP */
+.section-sign-up {
+  background-image: url(./assets/bg-sign-up.jpg);
+}
+.sign-up-content {
+  padding: 150px 596px 220px;
+}
+.section-heading__sign-up {
+  margin-bottom: 30px;
+  margin-left: 14px;
+  color: #fff;
+}
+.sign-up-form__email {
+  width: 313px;
+  height: 43px;
+  border: none;
+  padding-left: 25px;
+  padding-top: 2px;
+  line-height: 20px;
+}
+.sign-up-form__email::placeholder {
+  color: #373737;
+  opacity: 0.5;
+}
+.sign-up-form__btn {
+  width: 66px;
+  height: 46px;
+  background: #00afdb;
+  border: none;
+  border-radius: 0px;
+}
+.sign-up-form__btn:hover {
+  background: #009cc2;
+  cursor: pointer;
+}
+.sign-up-form__btn svg {
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+/* DOWNLOAD */
+.section-download {
+  padding: 70px 560px 180px;
+  background-color: #f5f6f7;
+}
+.download-heading {
+  margin-left: 15px;
+}
+.button_apple,
+.button_play {
+  padding: 0;
+  margin: 29px 12px 0 15px;
+  outline: none;
+  border: none;
+}
+.button-name {
+  padding: 15px 20px;
+}
+.button-icon {
+  padding: 12px 20px;
+  background: #009cc2;
+}
+
+/* FOOTER */
+.footer {
+  justify-content: space-between;
+  padding: 58px 160px 80px 145px;
+  background: #000;
+}
+.nav-menu__item {
+  margin-right: 18px;
+  margin-left: 16px;
+}
+.nav-menu__item::after {
+  content: "|";
+  position: relative;
+  left: 15px;
+  font-size: 10px;
+  color: #4e4e4e;
+}
+.nav-menu__item:last-child::after {
+  display: none;
+}
+.nav-menu__link {
+  line-height: 20px;
+}
+.nav-menu__link:hover {
+  opacity: 0.5;
+}
+.footer-logo {
+  margin-right: 83px;
+}
+.copyright {
+  line-height: 20px;
+  color: #818181;
+}
